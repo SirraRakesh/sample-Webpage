@@ -1,0 +1,71 @@
+.topbar{
+   
+    margin-top:10px;
+    
+    
+       display: flex;
+       width: 100%;
+       justify-content: center;
+       position: absolute;
+}
+.searchbar{
+    /* position: relative;*/
+    
+    width:30%
+    
+
+}
+.inputsearch{
+   padding: 5px;
+   width:80%
+   
+}
+
+
+.search{
+    position: absolute;
+    
+    font-size:x-larger;
+    border: solid;
+    border-width: 3px;
+    border-style: groove;
+    cursor: pointer;
+}
+.search:hover{
+    background: white;
+}
+
+.topbar ul{
+    left:50%;
+    display: flex;
+    justify-content: center;
+    
+    position:relative;
+   text-decoration: none;
+   color:white
+
+
+} 
+.topbar ul li{
+    margin-left:10px;
+    width: 70px;
+    list-style: none;
+    border: solid;
+    border-width: 3px;
+    border-style: groove;
+    cursor: pointer;
+    background-color: aliceblue;
+    margin-right: 20px;
+    text-align: center;
+}
+.link{
+    text-decoration: none;
+    width: 100%;
+}
+    
+
+.topbar ul li:hover{
+    background-color:blue;
+    color:white;
+    text-decoration: none;
+}
